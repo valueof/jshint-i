@@ -85,6 +85,8 @@ process.stdin.on("data", function (cmd) {
 			prompt();
 	}
 });
-	
-scan();
-next();
+
+exports.run = function () {
+	scan();
+	next();
+};
