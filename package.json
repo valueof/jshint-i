@@ -1,6 +1,6 @@
 {
 	"name":     "jshint-i",
-	"version":  "0.0.2",
+	"version":  "0.0.3",
 	"homepage": "https://github.com/antonkovalyov/jshint-i",
 	
 	"author": {
@@ -10,6 +10,11 @@
 	},
 	
 	"main": "./jshint-i.js",
+	"bin": { "jshint-i": "./bin/jshint-i" },
+	
+	"scripts": {
+		"start": "node ./bin/jshint-i"
+	},
 	
 	"dependencies": {
 		"jshint":  "*"
