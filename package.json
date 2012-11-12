@@ -1,0 +1,18 @@
+{
+	"name":    "jshint-i",
+	"version": "0.0.1",
+	
+	"author": {
+		"name":  "Anton Kovalyov",
+		"email": "anton@kovalyov.net",
+		"url":   "http://anton.kovalyov.net/"
+	},
+	
+	"main": "./jshint-i.js",
+	
+	"dependencies": {
+		"jshint":  "*",
+	},
+	
+	"preferGlobal": true
+}
