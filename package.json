@@ -1,6 +1,7 @@
 {
-	"name":    "jshint-i",
-	"version": "0.0.1",
+	"name":     "jshint-i",
+	"version":  "0.0.1",
+	"homepage": "https://github.com/antonkovalyov/jshint-i",
 	
 	"author": {
 		"name":  "Anton Kovalyov",
@@ -11,7 +12,7 @@
 	"main": "./jshint-i.js",
 	
 	"dependencies": {
-		"jshint":  "*",
+		"jshint":  "*"
 	},
 	
 	"preferGlobal": true
